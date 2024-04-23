@@ -1,0 +1,21 @@
+Git Configure 
+
+1.download and install it from https://git-scm.com/.
+2. git config --global user.name "srmiltonkhan"
+3. git config --global user.email "srmiltonkhan@gmail.com"
+4. IF acccount not has Create Account in Github.
+5. Create Repository
+
+6. type following command then last command  you authenticate with browser
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/srmiltonkhan/FeeAutomationSystems.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/srmiltonkhan/LaravelBackendProjTemplate.git
+git branch -M main
+git push -u origin main --force
